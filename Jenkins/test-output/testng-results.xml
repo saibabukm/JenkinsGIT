@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16512" started-at="2017-08-25T15:03:04Z" finished-at="2017-08-25T15:03:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16512" started-at="2017-08-25T15:03:04Z" finished-at="2017-08-25T15:03:21Z">
+      <class name="demojenkins.JenkinsJobs">
+        <test-method status="PASS" signature="doBeforeTest()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="doBeforeTest" is-config="true" duration-ms="16" started-at="2017-08-25T20:33:04Z" finished-at="2017-08-25T20:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeTest -->
+        <test-method status="PASS" signature="printBrowserUsed()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="printBrowserUsed" is-config="true" duration-ms="4666" started-at="2017-08-25T20:33:04Z" finished-at="2017-08-25T20:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBrowserUsed -->
+        <test-method status="PASS" signature="StagingServer()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="StagingServer" duration-ms="11814" started-at="2017-08-25T20:33:09Z" finished-at="2017-08-25T20:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StagingServer -->
+        <test-method status="PASS" signature="doAfterTest()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="doAfterTest" is-config="true" duration-ms="0" started-at="2017-08-25T20:33:21Z" finished-at="2017-08-25T20:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="quitDriver" is-config="true" duration-ms="1296" started-at="2017-08-25T20:33:21Z" finished-at="2017-08-25T20:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- demojenkins.JenkinsJobs -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
