@@ -49,9 +49,9 @@ public class JenkinsJobs {
 		new Select(driver.findElement(By.id("hotels"))).selectByVisibleText("Hotel Creek");
 		new Select(driver.findElement(By.id("room_type"))).selectByVisibleText("Standard");
 		driver.findElement(By.id("datepick_in")).clear();
-		driver.findElement(By.id("datepick_in")).sendKeys("25/08/2017");
+		driver.findElement(By.id("datepick_in")).sendKeys("27/08/2017");
 		driver.findElement(By.id("datepick_out")).clear();
-		driver.findElement(By.id("datepick_out")).sendKeys("27/08/2017");
+		driver.findElement(By.id("datepick_out")).sendKeys("29/08/2017");
 		new Select(driver.findElement(By.id("adult_room"))).selectByVisibleText("1 - One");
 		new Select(driver.findElement(By.id("child_room"))).selectByVisibleText("1 - One");
 		driver.findElement(By.id("Submit")).click();
