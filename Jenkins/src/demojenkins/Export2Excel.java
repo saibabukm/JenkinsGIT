@@ -9,7 +9,7 @@ import jxl.read.biff.BiffException;
 
 public class Export2Excel {
 
-	public static void main(String[] arg)throws BiffException, IOException  {
+	public static void main(String[] args)throws BiffException, IOException {
 		//excel path
 		Workbook w=Workbook.getWorkbook(new File("d://eclipse//excel.xls") );
 		//sheet1

@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="demojenkins.JenkinsJobs">
+      <class name="demojenkins.DataDriverTesting">
         <methods>
-          <include name="doBeforeTest"/>
-          <include name="quitDriver"/>
-          <include name="doAfterTest"/>
-          <include name="printBrowserUsed"/>
-          <include name="StagingServer"/>
+          <include name="LoginVerify"/>
         </methods>
-      </class> <!-- demojenkins.JenkinsJobs -->
+      </class> <!-- demojenkins.DataDriverTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

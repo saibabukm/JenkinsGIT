@@ -2,32 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29568" started-at="2017-08-27T04:34:19Z" finished-at="2017-08-27T04:34:48Z">
+  <suite name="Default suite" duration-ms="32840" started-at="2017-08-27T16:33:20Z" finished-at="2017-08-27T16:33:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29568" started-at="2017-08-27T04:34:19Z" finished-at="2017-08-27T04:34:48Z">
-      <class name="demojenkins.JenkinsJobs">
-        <test-method status="PASS" signature="doBeforeTest()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="doBeforeTest" is-config="true" duration-ms="14" started-at="2017-08-27T10:04:19Z" finished-at="2017-08-27T10:04:19Z">
+    <test name="Default test" duration-ms="32840" started-at="2017-08-27T16:33:20Z" finished-at="2017-08-27T16:33:53Z">
+      <class name="demojenkins.DataDriverTesting">
+        <test-method status="PASS" signature="LoginVerify()[pri:0, instance:demojenkins.DataDriverTesting@4b5a5ed1]" name="LoginVerify" duration-ms="32822" started-at="2017-08-27T22:03:20Z" finished-at="2017-08-27T22:03:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doBeforeTest -->
-        <test-method status="PASS" signature="printBrowserUsed()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="printBrowserUsed" is-config="true" duration-ms="4602" started-at="2017-08-27T10:04:19Z" finished-at="2017-08-27T10:04:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printBrowserUsed -->
-        <test-method status="PASS" signature="StagingServer()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="StagingServer" duration-ms="24938" started-at="2017-08-27T10:04:23Z" finished-at="2017-08-27T10:04:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StagingServer -->
-        <test-method status="PASS" signature="doAfterTest()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="doAfterTest" is-config="true" duration-ms="2" started-at="2017-08-27T10:04:48Z" finished-at="2017-08-27T10:04:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doAfterTest -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:demojenkins.JenkinsJobs@3ecf72fd]" name="quitDriver" is-config="true" duration-ms="1198" started-at="2017-08-27T10:04:48Z" finished-at="2017-08-27T10:04:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-      </class> <!-- demojenkins.JenkinsJobs -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- LoginVerify -->
+      </class> <!-- demojenkins.DataDriverTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
