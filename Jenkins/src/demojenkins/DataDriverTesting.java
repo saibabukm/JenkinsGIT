@@ -36,8 +36,8 @@ public class DataDriverTesting {
 	  int rowcount = sheet.getRows();
 	  for(int i=0; i<rowcount; i++)
 	  {
-		  String userName = sheet.getCell(0,0).getContents();
-		  String password = sheet.getCell(1,0).getContents();
+		  String userName = sheet.getCell(0,i).getContents();
+		  String password = sheet.getCell(1,i).getContents();
 	      
 		  driver.findElement(By.name("txtUsername")).clear(); 		  
 		  driver.findElement(By.name("txtUsername")).sendKeys(userName);
@@ -49,17 +49,19 @@ public class DataDriverTesting {
 		  if(driver.getTitle().equals("OrangeHRM"))
 		  {
 			  System.out.println("Login Sucess");
+		  }else{
+			  System.out.println("Login Failed");
+		  
+			  continue;			  
+		  }			  
 			  driver.findElement(By.id("welcome")).click();
 			  WebDriverWait wait = new WebDriverWait(driver,20);
 			  WebElement Logout;
 			  Logout= wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Logout")));
-			  Logout.click();
-		  
-	  }else{
-		  System.out.println("Login Failed");
-	  }
-		  
+			  Logout.click();	  
+
 	}
+	  
   driver.close();
   workBook.close();
 

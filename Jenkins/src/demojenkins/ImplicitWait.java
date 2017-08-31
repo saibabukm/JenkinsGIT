@@ -15,9 +15,9 @@ public class ImplicitWait {
 	  
 	  System.setProperty("webdriver.chrome.driver","D:\\eclipse\\chromedriver.exe");
 	  	driver=new ChromeDriver();
-	  	driver.manage().window().maximize();
-	    driver.navigate().to("http://google.com");
+	  	driver.manage().window().maximize();	    
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	    driver.navigate().to("http://google.com");
 	    driver.quit();
   }
 }

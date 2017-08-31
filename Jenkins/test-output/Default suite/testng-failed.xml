@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="demojenkins.DataDriverTesting">
+      <class name="demojenkins.IDMChild">
         <methods>
-          <include name="LoginVerify"/>
+          <include name="printBrowserUsed"/>
+          <include name="BaseClass"/>
         </methods>
-      </class> <!-- demojenkins.DataDriverTesting -->
+      </class> <!-- demojenkins.IDMChild -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
